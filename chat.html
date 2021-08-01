@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Room | Kakao Clone</title>
 </head>
-<body>
+<body class="chat_body">
     <div class="status-bar">
         <div class="status-bar__column"> <!-- 좌측의 상태표시-->
             <i class="fa fa-signal"></i>
@@ -53,15 +53,16 @@
                 <span class="message__timestamp"></span>
                 <div class="message__content">
                     <div class="message__bubble">안녕하세요</div>
+
             </div>
         
            </li>
-           <li class="incoming-message message">
-            <img src="./images/avatar1.jpg" class="friend__avatar">
+           <li class="outcoming-message message">
             <div class="message__content">
-                <span class="message__author">사용자</span>
-                <div class="message__bubble">반갑습니다</div>
+                <img src="./images/avatar.jpg" style="width: 50px; border-radius: 35%;"class="friend__avatar">
+                <span class="message__author">효자손서비스</span>
             </div>
+            <div class="message__bubble">반갑습니다</div>
         <span class="message__timestamp"></span>
            </li>
        </ul>
@@ -71,7 +72,7 @@
             <i class="far fa-plus-square"></i>
         </div>
         <div class="chat__write-column">
-            <input type="text" placeholder="Send message" class="chat__write-input"/>
+            <input type="text" style="width: 300px;" placeholder="Send message" class="chat__write-input"/>
         </div>
         <div class="chat__write-column"></div>
             <span class="chat__write-icon">

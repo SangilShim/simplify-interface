@@ -1,0 +1,24 @@
+.incoming-message {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.chat__write {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0px;
+}
+
+.message__bubble {
+    
+    width : 200px;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+
+.chat_body {
+    background-color: #96B4D1;
+}
