@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Friends | Kakao Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column"> <!-- 좌측의 상태표시-->
+            <i class="fa fa-signal"></i>
+            <span class="status-bar__communi">LGU+</span>
+            <span class="status-bar__speedy">LTE</span>
+        </div>
+        <div class="status-bar__column"> <!-- 중간의 시간-->
+            <span class="status-bar__clock">오후 12:24</span>
+        </div>  
+        <div class="status-bar__column">
+            <span class="status-bar__battery-level">88%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div> <!-- 우측의 상태표시-->
+    </div>
+    <header class="header">
+        <div class="header__header-column"> <!-- 채팅-->
+            <h1 class="header__title">친구</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-user-plus"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fab fa-itunes-note"></i>
+            </span>
+            <span>
+                <a href="settings.html">
+                    <i class="fas fa-cog"></i>
+                </a>
+            </span>
+        </div> <!-- 아이콘-->
+    </header>
+    <main class="friends">
+        <header class="friends__header">
+            <div class="friends__friends friend friend--lg">
+                <div class="friend__column">
+                    <img src="./images/avatar1.jpg" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">Shimmy</span>
+                        <span class="friend__status">효도하자</span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>Cheer up!</span>
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="friends__new">
+            <h5 class="friends__title">새로운 친구</h5>
+            <div class="friends__friends friend">
+                <div class="friend__column">
+                    <img src="./images/avatar2.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">Naver</span>
+                        <span class="friend__status">네이버공식계정</span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="friends__list">
+            <h5 class="friends__title">친구 888</h5>
+                <li class="friends__list">
+                    <div class="friend__column">
+                        <img src="./images/avatar.jpg" class="friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">카카오 효자손</span>
+                            <span class="friend__status">카카오 효자손 공식계정</span>
+                        </div>
+                    </div>
+                    <div class="friend__column">
+                        <div class="friend__now-listening">
+                        </div>
+                    </div>
+                </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="./friends.html" class="nav__list-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./index.html" class="nav__list-link">
+                    <i class="fas fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./find.html" class="nav__list-link">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./game.html" class="nav__list-link">
+                    <i class="fas fa-star"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="./more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
